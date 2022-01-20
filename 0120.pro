@@ -11,7 +11,8 @@ TEMPLATE = app
 
 SOURCES += main.cpp \
     unit.cpp \
-    pudge.cpp
+    pudge.cpp \
+    windranger.cpp
 
 # The following define makes your compiler emit warnings if you use
 # any feature of Qt which as been marked deprecated (the exact warnings
@@ -26,4 +27,5 @@ DEFINES += QT_DEPRECATED_WARNINGS
 
 HEADERS += \
     unit.h \
-    pudge.h
+    pudge.h \
+    windranger.h

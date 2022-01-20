@@ -9,7 +9,7 @@ this->health=100;
 }
 void unit::attack(unit &enemy){
     enemy.health-=this->damage;
-    cout << this->name<< "atauket" << enemy.name
-                                  <<"i nanosit" << this->damage << "urona"
+    cout << this->name << " atauket " << enemy.name
+                                  <<" i nanosit " << this->damage << " urona "
                                  << endl;
 }
