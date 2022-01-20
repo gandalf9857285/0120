@@ -11,7 +11,7 @@ public:
     int armor;
     int damage;
     char name[20];
-public:
+    public:
     unit();
     void attack(unit &enemy);
 };

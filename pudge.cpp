@@ -5,12 +5,12 @@ pudge::pudge()
     this->health=150;
         this->armor=12;
         this->damage=15;
-        strcpy(this->name, "pudge");
+        strcpy(this->name, " pudge ");
 }
 void pudge::MeataHoock(unit &enemy){
     int uron = this->damage * 1.8;
     enemy.health -= uron;
     cout << this->name << " hukaet " << enemy.name
-                                  <<" i nanosit " << this->damage << " urona "
-                                 << endl;
+         <<" i nanosit " << this->damage << " urona "
+         << endl;
 }
