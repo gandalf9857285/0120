@@ -1,14 +1,10 @@
 #include <QCoreApplication>
-#include"student.h"
-#include"teacher.h"
+#include"unit.h"
 int main(int argc, char *argv[])
 {
     QCoreApplication a(argc, argv);
-Student s1;
-s1.print();
-Teacher s3;
-s3.print();
-
+unit u1, u2;
+u1.attack(u2);
 
     return a.exec();
 }
